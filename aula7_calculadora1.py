@@ -1,4 +1,6 @@
 #definindo uma classe em python
+
+#desta forma a classe deve receber os valores ao ser estanciada
 class Calculadora: #por convencao classes comecam com letra maiuscula
     def __init__(self, num1, num2):
         self.valor_a = num1
