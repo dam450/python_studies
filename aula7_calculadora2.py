@@ -18,9 +18,11 @@ class Calculadora: #por convencao classes comecam com letra maiuscula
     def divisao (self, valor_a, valor_b):
         return valor_a / valor_b
 
-calculadora = Calculadora()
+if __name__ == '__main__':
 
-print(calculadora.soma(10, 4))
-print(calculadora.subtracao(10, 3))
-print(calculadora.divisao(5, 3))
-print(calculadora.multiplicacao(7, 3))
+
+    calculadora = Calculadora()
+    print(calculadora.soma(10, 4))
+    print(calculadora.subtracao(10, 3))
+    print(calculadora.divisao(5, 3))
+    print(calculadora.multiplicacao(7, 3))

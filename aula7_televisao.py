@@ -29,24 +29,25 @@ class Televisao:
         else:
             self.ligada = True
 
+if __name__ == '__main__':
 
-televisao = Televisao()
+    televisao = Televisao()
 
-print("televisao está ligada: {}" .format(televisao.ligada))
-televisao.power()
-print("televisao está ligada: {}" .format(televisao.ligada))
+    print("televisao está ligada: {}" .format(televisao.ligada))
+    televisao.power()
+    print("televisao está ligada: {}" .format(televisao.ligada))
 
-print("canal: {}" .format(televisao.canal))
-print("volume: {}" .format(televisao.volume))
-televisao.canal_mais()
-televisao.canal_mais()
-print("canal: {}" .format(televisao.canal))
-televisao.canal_menos()
-#televisao.mudo()
-televisao.volume_mais()
-televisao.volume_mais()
-televisao.volume_mais()
-televisao.volume_mais()
+    print("canal: {}" .format(televisao.canal))
+    print("volume: {}" .format(televisao.volume))
+    televisao.canal_mais()
+    televisao.canal_mais()
+    print("canal: {}" .format(televisao.canal))
+    televisao.canal_menos()
+    #televisao.mudo()
+    televisao.volume_mais()
+    televisao.volume_mais()
+    televisao.volume_mais()
+    televisao.volume_mais()
 
-print("volume: {}" .format(televisao.volume))
-print("canal: {}" .format(televisao.canal))
+    print("volume: {}" .format(televisao.volume))
+    print("canal: {}" .format(televisao.canal))
