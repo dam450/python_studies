@@ -7,5 +7,8 @@ Meu repositório das Aulas de Python![Python](https://docs.python.org/3/_static/
 
 
 ##### Ferramentas
-- IDE PyCharm da Jet Brains [(download)](https://www.jetbrains.com/pycharm/ "download").
-- Python [(download)](https://www.python.org/downloads/ "(download)")
+- [IDE PyCharm da Jet Brains](https://www.jetbrains.com/pycharm/ "download da IDE PyCharm").
+- [Python](https://www.python.org/downloads/ "download dos binarios do Python")
+
+##### Documentação
+- [docs.python.org](https://docs.python.org/3/ "Documentação Python")
